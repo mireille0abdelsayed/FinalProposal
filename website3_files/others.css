@@ -1,0 +1,9 @@
+html[lang='zh-hans'],
+html[lang='zh-hans'] * {
+    font-family: 'Noto Sans SC', 'helvetica', sans-serif !important;
+}
+
+html[lang='ja'],
+html[lang='ja'] * {
+    font-family: 'Noto Sans JP', 'helvetica', sans-serif !important;
+}
