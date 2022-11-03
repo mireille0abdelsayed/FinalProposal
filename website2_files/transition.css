@@ -1,0 +1,59 @@
+#loader {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 350%;
+    height: 100%;
+    z-index: 999;
+    /*background: #ffffff;*/
+    /*background: #EEE9DF;*/
+    background: #000000;
+    /*background: rgb(251 247 237 / 100%);*/
+    opacity: 1;
+    backdrop-filter: blur(10px) opacity(1) saturate(80%) contrast(160%);
+    -webkit-backdrop-filter: blur(10px) opacity(1) saturate(80%) contrast(140%);
+    mask-image: linear-gradient(to left, transparent 0%, #000 75%);
+    -webkit-mask-image: linear-gradient(to left, transparent 0%, #000 75%);
+    padding-right: 100px;
+
+
+}
+
+#loader_blur {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 350%;
+    height: 100%;
+    /*background: #FBF7ED;*/
+    /*background: rgb(251 247 237 / 100%);*/
+    opacity: 1;
+    z-index: 991;
+    backdrop-filter: blur(10px) brightness(110%) opacity(1);
+    -webkit-backdrop-filter: blur(10px) brightness(110%) opacity(1);
+    mask-image: linear-gradient(to left, transparent 0%, #000 75%);
+    -webkit-mask-image: linear-gradient(to left, transparent 0%, #000 75%);
+}
+
+#logo {
+    transform-origin: 50% 50%;
+  /*visibility: hidden;*/
+    content: "";
+    position: fixed;
+       transform: translateY(-50%) translateX(-50%);
+       top: 50%;
+       left: 50%;
+     /*  width: 300px;
+    height: 200px;*/
+    z-index: 1000;
+    /*background-image: url("http:/localhost/stories-of-clay/wp-content/uploads/2021/07/aftermath-logo.svg");*/
+    /*background: red;*/
+    /*background-size: contain;
+    background-repeat: no-repeat;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
