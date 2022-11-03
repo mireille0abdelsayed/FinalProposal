@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "CentraNo2-Bold";
+    font-display: swap;
+    src: url("/fonts/CentraNo2-Bold.woff2") format("woff2"), 
+        url("/fonts/CentraNo2-Bold.woff") format("woff");
+    font-style: normal;
+}
+@font-face {
+    font-family: "CentraNo2-Book";
+    font-display: swap;
+    src:  url("/fonts/CentraNo2-Book.woff2") format("woff2"), 
+        url("/fonts/CentraNo2-Book.woff") format("woff");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CentraNo2-Medium";
+    font-display: swap;
+    src: url("/fonts/CentraNo2-Medium.woff2") format("woff2"),
+    url("/fonts/CentraNo2-Medium.ttf") format("truetype");
+    font-style: normal;
+}
